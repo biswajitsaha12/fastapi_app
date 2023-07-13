@@ -1,7 +1,7 @@
 
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://testmongo:T0%40sting@cluster0.oalfel9.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://testmongo:<password>@cluster0.oalfel9.mongodb.net/?retryWrites=true&w=majority")
 
 db = client.user_db
 collection_name = db["user_collection"]
